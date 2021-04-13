@@ -3,7 +3,10 @@ pipeline {
   stages {
     stage('') {
       steps {
-        sh 'ping 8.8.8.8 -c3'
+        sh 'ping 8.8.8.8 -c4'
+      }
+      steps {
+        sh 'ping 8.8.8.8 -c4'
       }
     }
 
